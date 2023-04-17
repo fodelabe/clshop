@@ -1,0 +1,117 @@
+/*INITIALISE VOTRE PAGE*/
+*{
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+/*DESIGN DU MENU LATERAL*/
+.sidebar{
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	background-color: rgb(4, 4, 80);
+	padding: 20px 0px;
+}
+
+#profil img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 10px solid rgb(37, 37, 230);
+}
+#profil{
+	text-align: center;
+	color: #FFF;
+}
+#profil h3{
+	font-size: 25px;
+	margin-top: 15px;
+}
+#profil p{
+	font-size: 23px;
+	color: rgb(160, 160, 250);
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.sidebar ul li a{
+	color: #FFF;
+	display: block;
+	padding: 10px 30px;
+	font-size: 20px;
+	border-bottom: 2px solid #10558D;
+}
+.sidebar ul li a:hover, .active{
+	background-color: #FFF;
+	color: darkblue !important;
+	border-right: 2px solid #10558D;
+}
+  /*design de la section*/
+  section{
+  	width: cal(100%-250px);
+  	margin-left: 250px;
+  }
+
+  header{
+  	background-color: rgb(7, 7, 45);
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	padding: 20px;
+  }
+  header a{
+  	color: aliceblue;
+  	font-size: 1.8em;
+  }
+  /*design de la banniere*/
+  .banner{
+  	height: 225px;
+  	background-color: #000c66;
+  	color: #D1D1D1;
+  }
+  .titre h2{
+  	text-align: center;
+  	font-size: 2.5em;
+  	padding-top: 50px;
+  	color: whitesmoke;
+  }
+  .trait{
+  	height: 10px;
+  	background-color: rgb(231, 231, 134);
+  	width: 70%;
+  	margin: 20px auto;
+  }
+  .btn{
+  	text-align: center;
+      }
+  .btn button{
+  	font-size: 2em;
+  	padding: 5px;
+  }
+  /*design de l'article 1*/
+  article{
+	display: flex;
+	padding: 10px;
+  }
+  article img{
+	width: 200px;
+  }
+  .titre-article{
+	padding: 20px;
+	font-size: 20px;
+  }
+  .titre-article h3{
+	font-size: 1.3em;
+  }
+  /* deign du pied de page  */
+  .footer{
+	background-color: #060105;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 20px;
+  }

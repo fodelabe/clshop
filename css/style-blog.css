@@ -1,0 +1,85 @@
+/* initialisation de la page  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --couleur-1: #2F3144;
+    --couleur-2: white;
+    --couleur-3: #FFBC00;
+    --couleur-4: #DA8F00;
+    --couleur-5:  #E7EBCE;
+    --couleur-6: #F1F2F7;
+}
+section{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--couleur-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 100px 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+.titre h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 3;
+    color: var(--couleur-1);
+}
+.main{
+    display: flex;
+}
+.carte{
+    width: 100%;
+    padding: 40px 20px;
+}
+.carte img{
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.carte h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.carte p{
+    font-size: 18px;
+}
+.droite{
+    border: 2px solid var(--couleur-5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.droite h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+.liste{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.liste h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.liste p{
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--couleur-4);
+}
+.liste:hover{
+    background-color: var(--couleur-3);
+    cursor: pointer;
+    border-radius: 10px;
+    color: var(--couleur-1);
+}

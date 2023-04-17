@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription-clshop</title>
+    <!-- liaison fichiers bootstap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Debut section menu de navigation  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html">CODING LIFE TIME</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">ACCUEIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            BOUTIQUE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="shop.html">SHOP</a></li>
+                            <li><a class="dropdown-item" href="electronique.html">ELECTRONIQUE</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="connexion.html">CONNEXION</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="inscription.html">INSCIPTION</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="apropos.html">A PROPOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="rechercher" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">chercher</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin section menu de navigation  -->
+
+    <!-- debut formulaire d'inscription -->
+    <div class="mt-4 w-50 mx-auto p-4" style="background-color: #00007530;">
+        <form>
+            <div class="text-center text-white  p-2 mb-3" style="background-color: #000075 ;">
+                <h1 class="fs-1 fw-bold">Formulaire d'Inscription</h1>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <input class="form-control p-2 fs-3" type="text" placeholder="Prenom">
+                </div>
+                <div class="col">
+                    <input class="form-control p-2 fs-3" type="text" placeholder="Nom">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <input class="form-control p-2 fs-3" type="email" placeholder="Email">
+                </div>
+                <div class="col">
+                    <input class="form-control p-2 fs-3" type="text" placeholder="Telephone ">
+                </div>
+
+            </div>
+            <div class="mb-3">
+                <label> Date de naissance :</label> <br>
+                <input class="form-control p-2 fs-3" type="date">
+            </div>
+            <div class="mb-3">
+                <select class="form-select p-2 fs-3">
+                    <option>Sectionnner une Region</option>
+                    <option>Conakry</option>
+                    <option>Labé</option>
+                    <option>Mamou</option>
+                    <option>Kindia</option>
+                    <option>Kankan</option>
+                    <option>Faranah></option>
+                    <option>Boké</option>
+                    <option>N'Zérekoré</option>
+                </select>
+
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <input class="form-control p-2 fs-3" type="password" placeholder="Mot de passe">
+                </div>
+                <div class="col">
+                    <input class="form-control p-2 fs-4" type="password" placeholder="Confirmer mot de passe">
+
+                </div>
+                
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-primary fs-3">S'inscrire</button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- fin formulaire d"inscription -->
+
+    <!-- debut section pieds de page  -->
+    <div class="bg-dark mt-3">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Accueil</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-white">Blog</a></li>
+                <li class="nav-item"><a href="shop.html" class="nav-link px-2 text-white">Shop</a></li>
+                <li class="nav-item"><a href="connexion.html" class="nav-link px-2 text-white">Connexion</a>
+                </li>
+                <li class="nav-item"><a href="inscription.html" class="nav-link px-2 text-white">Inscription</a>
+                </li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2023 Codinglife, Tous droits reservés</p>
+        </footer>
+    </div>
+    <!-- fin section pieds de page  -->
+</body>
+
+</html>
